@@ -1,0 +1,18 @@
+<h4>{{cityName}}</h4>
+  <div class="container-fluid daily-forecast">
+    <div class="row">
+      <div class="col-12 col-sm-2 col-md-2" *ngFor="let singleDay of dayData">
+        <div class="row">
+          <div class="col-md-12 text-center">{{singleDay.day}}</div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4 col-sm-12 col-md-12"></div>
+          <div class="col-xs-4 col-sm-12 col-md-12 text-center"><img class="weather-icon" src='{{ singleDay.imageUrl }}' alt="No Image Found"></div>
+          <div class="col-xs-4 col-sm-12 col-md-12"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">{{singleDay.temp}}°F</div>
+        </div>
+      </div>
+  </div>
+</div>

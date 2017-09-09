@@ -1,0 +1,10 @@
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin:0px auto;
+}
+.navbar-toggle {
+    z-index:3;
+}

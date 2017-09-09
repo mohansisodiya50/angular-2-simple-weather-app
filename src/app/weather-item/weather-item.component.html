@@ -1,0 +1,13 @@
+<div class="row weather-item">
+  <div class="row">
+      <div class="col-xs-6">
+        <div class="row">{{ weatherItem.cityName }}</div>
+        <div class="row weather-temprature"><span >{{ weatherItem.temprature }}°F</span></div>
+      </div>
+      <div class="col-xs-6">
+          <div class="row weather-icon"><img src='{{ weatherItem.imageUrl }}' alt="No Image Found"></div>
+          <div class="row"><span style="font-size: 15px">{{ weatherItem.description }}</span></div>
+      </div>
+  </div>
+  <button class="btn btn-info btn-xs" (click)="getWeatherForecast()" [routerLink] = "['/forecast', weatherItem.cityName]">Forecast</button>
+</div>

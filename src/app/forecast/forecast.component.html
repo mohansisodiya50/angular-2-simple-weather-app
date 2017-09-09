@@ -1,0 +1,4 @@
+<h1>
+   <button type="button" class="btn btn-primary btn-arrow-left" [routerLink]="['/']">Go back</button>
+</h1>
+<app-daily-forecast *ngIf="dayData.length" [dayData]="dayData"></app-daily-forecast>

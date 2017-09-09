@@ -1,0 +1,14 @@
+.weather-item {
+  margin: 7% 0px;
+  border: 1px solid;
+  padding: 10px;
+}
+
+.weather-icon {
+   margin-top: -6%;
+   margin-bottom: -7%;
+}
+
+.weather-temprature {
+  font-size: 20px;
+}
